@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    z-index: 2;
+    color: #ffffff;
+}
+
+video {
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    position: fixed;
+    z-index: 0.8;
+}
+
+.container-buttons {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+}
+
+button {
+    background-color: rgb(255, 151, 47);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    width: 110px;
+    z-index: 2;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+    z-index: 2;
+}
+
+li {
+    border: 2px solid #33ff44;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 2;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+p {
+  
+    color: #ffff;
+    z-index: 2;
+}
+
+.item-price {
+    font-weight: bold;
+    color: rgb(255, 151, 47);
+    z-index: 2;
+}
