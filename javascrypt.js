@@ -43,7 +43,7 @@ function sumAllItems() {
 
     list.innerHTML = 
     `<li>
-     <h2>Total da compra : ${formatCurrency(totalValue)}</h2>
+     <h2>Total da compra : <br>${formatCurrency(totalValue)}</h2>
     </li>`
 }
 function filterAllItems() {
